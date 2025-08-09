@@ -1,0 +1,8 @@
+data_path: ../data/accepted_2007_to_2018q4.csv.gz
+cleaned_data_path: ../data/cleaned_lendingclub.csv
+featured_data_path: ../data/featured_lendingclub.csv
+processed_train_X: ../data/processed/X_train.npy
+processed_test_X: ../data/processed/X_test.npy
+processed_train_y: ../data/processed/y_train.npy
+processed_test_y: ../data/processed/y_test.npy
+preprocessor_path: ../models/preprocessor.joblib

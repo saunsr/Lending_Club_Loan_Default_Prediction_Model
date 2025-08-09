@@ -1,0 +1,20 @@
+# large/raw data and generated artifacts
+*.csv
+*.csv.gz
+*.zip
+data/processed/
+models/
+*.npy
+*.npz
+*.joblib
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+
+# envs
+.env
+.venv/

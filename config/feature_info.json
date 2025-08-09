@@ -1,0 +1,1 @@
+{"numeric_features": ["loan_amnt", "term", "int_rate", "installment", "emp_length", "annual_inc", "dti", "delinq_2yrs", "inq_last_6mths", "open_acc", "pub_rec", "revol_bal", "revol_util", "total_acc", "fico_range_low", "fico_range_high", "credit_history_years"], "ordinal_features": ["grade"], "nominal_features": ["home_ownership", "verification_status", "purpose"]}
