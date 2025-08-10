@@ -10,7 +10,7 @@ Download the **LendingClub Accepted Loans 2007–2018Q4** dataset from Kaggle:  
 File used: `accepted_2007_to_2018q4.csv.gz` (large; not in this repo).
 
 ## Project Structure
-```plaintext
+```
 .
 ├── config/
 │   ├── config.yaml
@@ -28,16 +28,14 @@ File used: `accepted_2007_to_2018q4.csv.gz` (large; not in this repo).
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## How to run
 
-1. Create environment
-   ```bash
-   pip install -r requirements.txt
-2. Download dataset from the link above
-3. Edit config at config/config.yaml → set data_path to your local file path.
-4. Run notebooks in order from the notebooks/ folder:
-01 → 02 → 03 → 04 → 05 → 06 → 07
-05 saves processed arrays + preprocessor
-06 trains & tunes the model and saves best model + threshold
-07 reloads artifacts and prints final metrics/plots
+1. Create an environment
+2. Download the dataset from the link above
+3. Edit config at config/config.yaml, set data_path to your local file path.
+4. Run notebooks in order from the notebooks/ folder: 01 → 02 → 03 → 04 → 05 → 06 → 07
+05_notebook: saves processed arrays + preprocessor
+06_notebook: trains & tunes the model and saves the best model + threshold
+07_notebook: reloads artifacts and prints final metrics/plots
