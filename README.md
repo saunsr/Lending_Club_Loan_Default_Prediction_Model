@@ -30,14 +30,11 @@ File used: `accepted_2007_to_2018q4.csv.gz` (large; not in this repo).
 └── README.md
 
 ## How to run
-
+```
 1. Create environment
-   ```bash
-   pip install -r requirements.txt
 2. Download dataset from the link above
 3. Edit config at config/config.yaml → set data_path to your local file path.
-4. Run notebooks in order from the notebooks/ folder:
-01 → 02 → 03 → 04 → 05 → 06 → 07
-05 saves processed arrays + preprocessor
-06 trains & tunes the model and saves best model + threshold
-07 reloads artifacts and prints final metrics/plots
+4. Run notebooks in order from the notebooks/ folder: 01 → 02 → 03 → 04 → 05 → 06 → 07
+   `05_data_pre_processing.ipynb` saves processed arrays + preprocessor
+   `06_modelling.ipynb` trains & tunes the model and saves best model + threshold
+   `07_Summary.ipynb` reloads artifacts and prints final metrics/plots
