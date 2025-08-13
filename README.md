@@ -10,7 +10,7 @@ Download the **LendingClub Accepted Loans 2007–2018Q4** dataset from Kaggle:  
 File used: `accepted_2007_to_2018q4.csv.gz` (large; not in this repo).
 
 ## Project Structure
-```plaintext
+```
 .
 ├── config/
 │   ├── config.yaml
@@ -28,8 +28,11 @@ File used: `accepted_2007_to_2018q4.csv.gz` (large; not in this repo).
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## How to run
+
+1. Create environment
 ```
 1. Create environment
 2. Download dataset from the link above
