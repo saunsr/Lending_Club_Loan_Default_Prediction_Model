@@ -33,8 +33,6 @@ File used: `accepted_2007_to_2018q4.csv.gz` (large; not in this repo).
 ## How to run
 
 1. Create environment
-```
-1. Create environment
 2. Download dataset from the link above
 3. Edit config at config/config.yaml → set data_path to your local file path.
 4. Run notebooks in order from the notebooks/ folder: 01 → 02 → 03 → 04 → 05 → 06 → 07
